@@ -18,14 +18,16 @@ body {
     background-color: white;
     display: grid;
     border: solid black;
+    background-color: yellow;
     margin: auto;
     grid-template-columns: repeat(3, 1fr);
 }
 
-.legend.a {
-    
+.legend a {
+    color: red;
+    text-decoration: none;
 }
-
+   
 .main {
     height: 100%;
     border: solid green;
