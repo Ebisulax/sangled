@@ -1,0 +1,13 @@
+Homepage:
+
+    Startseite:
+
+    Wir werden vorgestellt
+    man kann auf unsere bilder klicken/mouseovern
+
+    "weg" mit den einzelnen Tagen als anchor
+
+    seite mit katas:
+
+    anwendbare katas. 
+    user gibt input ein und bekommt lösung raus.
