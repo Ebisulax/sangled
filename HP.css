@@ -1,5 +1,5 @@
 body {
-    background-color: darkgrey;
+    background-color: rgb(240, 207, 173);
     overflow: hidden;
     height: 100vh;
 }
@@ -15,16 +15,18 @@ body {
 }
 
 .legend {
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
     background-color: white;
     display: grid;
     border: solid black;
-    background-color: yellow;
+    background-color: rgb(229, 163, 71);
     margin: auto;
     grid-template-columns: repeat(3, 1fr);
 }
 
 .legend a {
-    color: red;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
    
@@ -37,13 +39,16 @@ body {
 .pics {
     display: grid;
     border: solid yellow;
+    background-color: rgb(229, 163, 71);
 }
 
 .img {
     border: solid black;
+    background-color: rgb(237, 192, 158);
     display: grid;
     padding: 0% 10%;
     width: 90%;
+    height: 90%;
     padding: 5%;
 }
 
