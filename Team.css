@@ -16,7 +16,7 @@ body {
 
 .legend {
     font-family: Copperplate;
-    font-size: 30px;
+    font-size: 25px;
     background-color: white;
     display: grid;
     margin: auto;
@@ -30,7 +30,7 @@ body {
 }
 
 #logo {
-    border: solid yellow;
+    /* border: solid yellow; */
     padding: 3% 0% 0% 35%;
 }
 
