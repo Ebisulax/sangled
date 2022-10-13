@@ -10,19 +10,24 @@ body {
 
 
 .container {
-    border: solid red;
+    /* border: solid red; */
     height: 100%;
 }
 
 .legend {
-    font-family: Verdana, sans-serif;
-    font-size: 20px;
+    font-family: Copperplate;
+    font-size: 30px;
     background-color: white;
     display: grid;
-    border: solid black;
-    background-color: rgb(229, 163, 71);
     margin: auto;
     grid-template-columns: repeat(3, 1fr);
+    background: linear-gradient(180deg, rgb(240, 207, 173) 10%, rgb(229, 163, 71) 80%)
+}
+
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0px 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
 
 .legend a {
@@ -32,28 +37,39 @@ body {
    
 .main {
     height: 100%;
-    border: solid green;
+    /* border: solid green; */
     overflow-y: scroll;
 }
 
 .pics {
     display: grid;
-    border: solid yellow;
-    background: linear-gradient(180deg, rgb(240, 207, 173) 20%, rgb(229, 163, 71) 80%);
+    /* border: solid yellow; */
+    background: linear-gradient(180deg, rgb(240, 207, 173) 10%, rgb(229, 163, 71) 80%)
 }
 
 .img {
     /* border: solid black; */
     display: grid;
-    padding: 0% 10%;
+    padding: 5% 5% 5% 5%;
     width: 80%;
     height: 85%;
-    padding: 5%;
-    border-radius: 10%;
+    border-radius: 100%;
+    background-color: rgb(229, 163, 71);
 }
 
+.button {
+    align-items: center;
+    width: 100%;
+    background-color:rgb(240, 207, 173);
+    border-radius: 3px;
+    color:rgb(0, 0, 0);
+    padding: 5%;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Copperplate;}
+
 #logo {
-    border: solid yellow;
+    /* border: solid yellow; */
     padding: 3% 0% 0% 35%;
 }
 
@@ -79,6 +95,18 @@ body {
 
 #text3 {
     grid-area: 2/3;
+}
+
+#button_Chris {
+    grid-area: 3/1/ span 2;
+}
+
+#button_Brenda {
+    grid-area: 3/2;
+}
+
+#button_Katharina {
+    grid-area: 3/3;
 }
 
 h1 {

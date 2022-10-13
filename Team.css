@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(240, 207, 173);
+    overflow: hidden;
+    height: 100vh;
+}
+
+.inh {
+    text-align: center;
+}
+
+
+.container {
+    /* border: solid red; */
+    height: 100%;
+}
+
+.legend {
+    font-family: Copperplate;
+    font-size: 30px;
+    background-color: white;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    background: linear-gradient(180deg, rgb(240, 207, 173) 10%, rgb(229, 163, 71) 80%)
+}
+
+.legend a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#logo {
+    border: solid yellow;
+    padding: 3% 0% 0% 35%;
+}
+
+h1 {
+    padding: 10px;
+    text-align: left; 
+    font-size: 30px;
+    font-family: Copperplate;
+}
+
+
+.img {
+    /* border: solid black; */
+    padding: 3%;
+    background-color: rgb(229, 163, 71);
+    width: 30%;
+    border-radius: 100%;
+}
+
+.descriptive_text {
+    /* border: solid black; */
+    color:rgb(255, 255, 255);
+    padding: 2%;
+    text-align: left; 
+    font-size: 20px;
+    font-family: Copperplate;
+}
+
+
