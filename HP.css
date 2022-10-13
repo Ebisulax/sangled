@@ -148,4 +148,14 @@ h2 {
     font-family: Copperplate;
 }
 
+.cat {
+    display: none;
+}
+#cat-code {
+    display: none;
+}
+
+#cat-desc-pic {
+    display: none;
+}
 
