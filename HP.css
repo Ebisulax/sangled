@@ -39,17 +39,17 @@ body {
 .pics {
     display: grid;
     border: solid yellow;
-    background-color: rgb(229, 163, 71);
+    background: linear-gradient(180deg, rgb(240, 207, 173) 20%, rgb(229, 163, 71) 80%);
 }
 
 .img {
-    border: solid black;
-    background-color: rgb(237, 192, 158);
+    /* border: solid black; */
     display: grid;
     padding: 0% 10%;
-    width: 90%;
-    height: 90%;
+    width: 80%;
+    height: 85%;
     padding: 5%;
+    border-radius: 10%;
 }
 
 #logo {
@@ -81,9 +81,43 @@ body {
     grid-area: 2/3;
 }
 
+h1 {
+    padding: 10px;
+    text-align: center; 
+    font-size: 30px;
+    font-family: Copperplate;
+}
+
+h2 {
+    padding: 10px;
+    text-align: center; 
+    font-size: 25px;
+    font-family: Copperplate;
+}
+
 .text {
-    border: solid black;
+    /* border: solid black; */
     padding: 5%;
     text-align: left; 
-
+    font-size: 20px;
+    font-family: Copperplate;
 }
+
+.introtext {
+    /* border: solid black; */
+    padding: 2%;
+    text-align: left; 
+    font-size: 20px;
+    font-family: Copperplate;
+}
+
+.descriptive_text {
+    /* border: solid black; */
+    color:rgb(255, 255, 255);
+    padding: 2%;
+    text-align: left; 
+    font-size: 20px;
+    font-family: Copperplate;
+}
+
+
