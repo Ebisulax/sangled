@@ -4,10 +4,28 @@ body {
     height: 100vh;
 }
 
+.main {
+    height: 100%;
+    /* border: solid green; */
+    overflow-y: scroll;
+}
+
 .inh {
     text-align: center;
 }
 
+.center_pics{
+    display: block;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.center_stats{
+    display: block;
+    padding-left: 20%;
+    width: 50%;
+  }
 
 .container {
     /* border: solid red; */
@@ -21,30 +39,35 @@ body {
     display: grid;
     margin: auto;
     grid-template-columns: repeat(3, 1fr);
-    background: linear-gradient(180deg, rgb(240, 207, 173) 10%, rgb(229, 163, 71) 80%)
+    background: linear-gradient(180deg, rgb(240, 207, 173) 5%, rgb(229, 163, 71) 94.5%, rgb(128, 94, 80) 0.5%)
 }
 
 hr {
     height: 12px;
     border: 0;
     box-shadow: inset 0px 12px 12px -12px rgba(0, 0, 0, 0.5);
+    margin-block-start: 0em;
 }
+
 
 .legend a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-}
-   
-.main {
-    height: 100%;
-    /* border: solid green; */
-    overflow-y: scroll;
 }
 
 .pics {
     display: grid;
     /* border: solid yellow; */
     background: linear-gradient(180deg, rgb(240, 207, 173) 10%, rgb(229, 163, 71) 80%)
+}
+
+.stats {
+    background: linear-gradient(180deg, rgb(240, 207, 173) 10%, rgb(229, 163, 71) 80%)
+}
+
+.pics_stats {
+    display: grid;
+    /* border: solid yellow; */
 }
 
 .img {
@@ -57,15 +80,23 @@ hr {
     background-color: rgb(229, 163, 71);
 }
 
+.img_stats{
+    /* border: solid black; */
+    display: grid;
+    padding: 5%;
+    width: 50%;
+    border-radius: 100%;
+    background-color: rgb(234, 151, 34);
+}
+
 .button {
-    align-items: center;
     width: 100%;
     background-color:rgb(240, 207, 173);
-    border-radius: 3px;
+    border-radius: 10px;
     color:rgb(0, 0, 0);
-    padding: 5%;
+    padding: 2%;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 18px;
     font-family: Copperplate;}
 
 #logo {
@@ -109,6 +140,19 @@ hr {
     grid-area: 3/3;
 }
 
+#pic1_stats {
+    grid-area:1/1 
+}
+
+#pic2_stats {
+    grid-area:1/2
+}
+
+#pic3_stats {
+    grid-area:1/3
+}
+
+
 h1 {
     padding: 10px;
     text-align: center; 
@@ -148,4 +192,57 @@ h2 {
     font-family: Copperplate;
 }
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(231, 170, 85);
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: Copperplate;
+  }
 
+.hide {
+    display: none;
+  }
+  
+
+  .myDIV1:hover + .hide {
+    width: 100%;
+    border: solid rgb(117, 117, 117);
+    border-radius: 5%;
+    padding: 5%;
+    display: block;
+    background-color: rgb(240, 221, 202);
+  }
+
+  .myDIV2:hover + .hide {
+    width: 100%;
+    border: solid rgb(117, 117, 117);
+    border-radius: 5%;
+    padding: 5%;
+    display: block;
+    background-color: rgb(240, 221, 202);
+  }
+
+  .myDIV3:hover + .hide {
+    width: 100%;
+    border: solid rgb(117, 117, 117);
+    border-radius: 5%;
+    padding: 5%;
+    display: block;
+    background-color: rgb(240, 221, 202);
+  }
+
+  .cat {
+    display: none;
+}
+#cat-code {
+    display: none;
+}
+
+#cat-desc-pic {
+    display: none;
+}

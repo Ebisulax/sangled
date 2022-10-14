@@ -3,16 +3,44 @@
     <head>
         <link rel="stylesheet" href="HP.css">
         <title>
-            Challenges
+            Katas
         </title>
-
         <link rel = "icon" href = "Logo Favicon.png" type = "image/x-icon">
     </head>
 
     <body>
-        <div class="container">
+        <div class="container" style="overflow: scroll">
             <header class="legend">
                 <a href="HP.html"><img id="logo" src="Logo Bild.png" width="50px"></a>
                 <a href="Katas.html"><p class="inh">Katas</p></a>
                 <a href="Challenges.html"><p class="inh">Our challenges</p></a>
             </header>
+            <h3>Cats and shelves</h3>
+            <label for="cat-desc">Description</label>
+            <button onclick="showCatDesc()" id="cat-desc">show me(ow)</button>
+            <br>
+            <img id="cat-desc-pic" src="cat description.jpeg" height="300px">
+
+            <br>
+            <label for="cat-button">Playtime🐈‍⬛</label>
+            <button id="cat-button" onclick="showCatButton()">play me(ow)</button>
+            
+            <div class="cat">
+                <br>
+                <label>The cat starts at Floor:</label>
+                <input id="cat-input-1"><br>
+                <label>The cat gets to Floor:</label>
+                <input id="cat-input-2"><br>
+                <span>The cat needs</span>
+                <span id="solution"> 0 </span>
+                <span>jumps</span>
+            </div>
+            <br>
+            <br>
+            <label for="cat-code-button">Code</label>
+            <button id="cat-code-button" onclick="showCatCode()">show me(ow)</button><br>
+            <img id="cat-code" src="cat code.jpeg" height="80px">
+        </div> 
+        <script src="Katas.js"></script>
+    </body>
+</html>

@@ -4,6 +4,12 @@ body {
     height: 100vh;
 }
 
+.main {
+    height: 100%;
+    /* border: solid green; */
+    overflow-y: scroll;
+}
+
 .inh {
     text-align: center;
 }
@@ -14,14 +20,22 @@ body {
     height: 100%;
 }
 
+.introtext {
+    /* border: solid black; */
+    padding: 2%;
+    text-align: left; 
+    font-size: 20px;
+    font-family: Copperplate;
+}
+
 .legend {
     font-family: Copperplate;
-    font-size: 25px;
+    font-size: 20px;
     background-color: white;
     display: grid;
     margin: auto;
     grid-template-columns: repeat(3, 1fr);
-    background: linear-gradient(180deg, rgb(240, 207, 173) 10%, rgb(229, 163, 71) 80%)
+    background: linear-gradient(180deg, rgb(240, 207, 173) 5%, rgb(229, 163, 71) 94.5%, rgb(128, 94, 80) 0.5%)
 }
 
 .legend a {
