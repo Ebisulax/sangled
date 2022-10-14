@@ -1,25 +1,26 @@
-catInput1=document.querySelector("#cat-input-1");
-catInput2=document.querySelector("#cat-input-2");
-sol=document.querySelector("#solution");
-catButton=document.querySelector("#cat-button")
+const catInput1 = document.querySelector("#cat-input-1");
+const catInput2 = document.querySelector("#cat-input-2");
+const sol = document.querySelector("#solution");
+const catButton = document.querySelector("#cat-button");
 
-let isPlayHidden=true
-let isImgHidden=true
-let isDescHidden=true
+let isPlayHidden = true;
+let isImgHidden = true;
+let isDescHidden = true;
 
-console.log(catInput1);
-
-catInput1.addEventListener('input',solution);
-catInput2.addEventListener('input',solution);
+catInput1.addEventListener('input', solution);
+catInput2.addEventListener('input', solution);
 
 function solution(){
-  start=catInput1.value;
-  finish=catInput2.value;
-  let rule = start.length>0 && finish.length>0 && !isNaN(parseInt(start)) && !isNaN(parseInt(finish))
-  if (rule){
-    sol.innerHTML = parseInt((finish-start)/3)+(finish-start)%3
-  }
-  else{
+  let start = catInput1.value;
+  let finish = catInput2.value;
+  let areInputsValid =
+    start.length > 0 &&
+    finish.length > 0 &&
+    !isNaN(parseInt(start)) &&
+    !isNaN(parseInt(finish));
+  if (areInputsValid) {
+    sol.innerHTML = parseInt((finish-start)/3)+(finish-start)%3;
+  } else {
     sol.innerHTML = 0
   }
 }

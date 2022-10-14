@@ -204,41 +204,24 @@ h2 {
     font-family: Copperplate;
   }
 
-.hide {
+.stats_button:hover + .stats,
+.stats_button + .stats:hover {
+    width: 100%;
+    border: solid rgb(117, 117, 117);
+    border-radius: 5%;
+    padding: 5%;
+    display: block;
+    background-color: rgb(240, 221, 202);
+}
+
+.stats {
     display: none;
-  }
-  
+}
 
-  .myDIV1:hover + .hide {
-    width: 100%;
-    border: solid rgb(117, 117, 117);
-    border-radius: 5%;
-    padding: 5%;
-    display: block;
-    background-color: rgb(240, 221, 202);
-  }
-
-  .myDIV2:hover + .hide {
-    width: 100%;
-    border: solid rgb(117, 117, 117);
-    border-radius: 5%;
-    padding: 5%;
-    display: block;
-    background-color: rgb(240, 221, 202);
-  }
-
-  .myDIV3:hover + .hide {
-    width: 100%;
-    border: solid rgb(117, 117, 117);
-    border-radius: 5%;
-    padding: 5%;
-    display: block;
-    background-color: rgb(240, 221, 202);
-  }
-
-  .cat {
+.cat {
   display: none;
 }
+
 #cat-code {
     display: none;
 }
